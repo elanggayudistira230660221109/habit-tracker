@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 2rem;
+  background: #f5f5f5;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 12px #ccc;
+}
+.habit-form input, .search-bar {
+  padding: 0.5rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+.habit-form button {
+  padding: 0.5rem 1rem;
+}
+.habit-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.habit-item.done {
+  background-color: #d4ffd4;
+}
+.delete-btn {
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
